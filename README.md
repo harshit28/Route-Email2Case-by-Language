@@ -1,12 +1,11 @@
 # Route Email2Case by Language
 Route Email2Case by Language Demo Component Package
 
- ![no image found](Images/AppEx video.mov "")
  ![no image found](Images/Admin Screen.png "")
  ![no image found](Images/Case Screenshot.png "")
 
  Set-up Instructions - 
- 
+
 1. Install the component
  
 2. Use this link to get the API key for a trial version - https://cloud.google.com/translate
