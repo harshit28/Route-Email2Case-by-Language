@@ -1,8 +1,8 @@
 # Route Email2Case by Language
 Route Email2Case by Language Demo Component Package
 
- ![no image found](Images/Admin Screen.png "")
- ![no image found](Images/Case Screenshot.png "")
+ ![Screenshot](Images/Admin Screen.png)
+ ![Screenshot](Images/Case Screenshot.png)
 
  Set-up Instructions - 
 
