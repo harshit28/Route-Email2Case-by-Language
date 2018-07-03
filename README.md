@@ -2,7 +2,7 @@
 Route Email2Case by Language Demo Component Package
 
  ![Screenshot](Images/AdminScreen.png)
- ![Screenshot](Images/"CaseScreenshot.png")
+ ![Screenshot](Images/CaseScreenshot.png)
 
  Set-up Instructions - 
 
