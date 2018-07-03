@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Route Email2Case by Language</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>LangDetector</namespacePrefix>
+    <types>
+        <members>DE_APIException</members>
+        <members>DE_APIExceptionTest</members>
+        <members>DE_Email2CaseLanguageDetection</members>
+        <members>DE_Email2CaseLanguageDetectionTest</members>
+        <members>DE_EnterKeyCtrl</members>
+        <members>DE_EnterKeyCtrlTest</members>
+        <members>DetectLanguageClass</members>
+        <members>DetectLanguageClassTest</members>
+        <members>LangDetectorCheckFLS</members>
+        <members>MockHttpResponseGenerator</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>DE_EnterKeyScreen</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>API_Key_LD__c.AES_Key__c</members>
+        <members>API_Key_LD__c.API_Key_Value__c</members>
+        <members>Case.Language__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>API_Key_LD__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>GoogleTranslateAPI</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>43.0</version>
+</Package>

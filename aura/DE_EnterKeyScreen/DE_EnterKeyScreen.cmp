@@ -1,0 +1,36 @@
+<aura:component controller="DE_EnterKeyCtrl" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute type="String" name="apiValue" />
+    
+    <style>
+        div#head
+        {
+        padding-top: 15px;
+        }
+        div#container 
+        {
+    	padding-left: 10px;
+        padding-bottom: 15px;
+        background: white;
+		}
+        div#inp 
+        {
+    	padding-top: 20px;
+		}
+        div#butt 
+        {
+    	padding-top: 13px;
+		}
+    </style>
+    <div id="container">
+        <div id="head">
+            <h1 class="slds-page-header__title slds-truncate slds-align-middle">API Key</h1>
+        </div>
+        <div id="inp">
+            <ui:inputText value="{!v.apiValue}" label="Enter API Key" required="true" />
+        </div>
+        <div id="butt">
+            <button id="butt2" class="slds-button slds-button_brand" onclick="{!c.saveValue}">Save</button>
+        </div>
+    </div>
+</aura:component>

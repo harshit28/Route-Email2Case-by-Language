@@ -1,0 +1,5 @@
+({
+	toastMessage : function(component) {
+        
+	}
+})
